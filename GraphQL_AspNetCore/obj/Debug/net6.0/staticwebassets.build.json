@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7bRBuumQlY52oInZKMLryLCN1eQ6E16+2ZxYakqN9tE=",
+  "Source": "GraphQL_AspNetCore",
+  "BasePath": "_content/GraphQL_AspNetCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
