@@ -4,6 +4,7 @@ namespace GraphQL_AspNetCore.Contracts
 {
     public interface IAccountRepository
     {
+        IEnumerable<Account> GetAll();
         IEnumerable<Account>GetAllAccountPerOwner(Guid ownerId);
 
         //Implementing a Cache in the GraphQL Queries with Data Loader

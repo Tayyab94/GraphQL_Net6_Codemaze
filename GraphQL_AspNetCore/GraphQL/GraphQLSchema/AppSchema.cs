@@ -9,6 +9,7 @@ namespace GraphQL_AspNetCore.GraphQL.GraphQLSchema
       : base(provider)
         {
             Query = provider.GetRequiredService<AppQuery>();
+            Mutation = provider.GetRequiredService<AppMutation>();
         }
 
 

@@ -24,5 +24,10 @@ namespace GraphQL_AspNetCore.Repository
 
             return accounts.ToLookup(s => s.OwnerId);
         }
+
+        public IEnumerable<Account> GetAll()
+        {
+            return _context.Accounts.ToList();
+        }
     }
 }

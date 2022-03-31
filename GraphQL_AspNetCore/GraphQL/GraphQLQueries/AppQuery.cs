@@ -7,11 +7,12 @@ namespace GraphQL_AspNetCore.GraphQL.GraphQLQueries
 {
     public class AppQuery : ObjectGraphType
     {
-        public AppQuery(IOwnerRepository repository)
+        public AppQuery(IOwnerRepository repository, IAccountRepository accountRepository)
         {
             Field<ListGraphType<OwnerType>>("owners",
                 resolve: context => repository.GetAll());
 
+            Field<ListGraphType<AccountType>>("accounts", resolve: context => accountRepository.GetAll());
             //Field<OwnerType>("owner",
             //    arguments: new QueryArguments(new QueryArgument<NonNullGraphType<IdGraphType>> { Name = "ownerId" }),
             //    resolve: context =>
