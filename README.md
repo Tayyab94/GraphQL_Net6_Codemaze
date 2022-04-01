@@ -5,3 +5,6 @@
   
 2 Advanced GraphQL Queries, Error Handling, Data Loader
   ( https://code-maze.com/advanced-graphql-queries/)
+
+3 GraphQL Mutations in ASP.NET Core 
+  (https://code-maze.com/graphql-mutations/)
