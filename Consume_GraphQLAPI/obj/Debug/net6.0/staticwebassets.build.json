@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dLHHmjAt0AC0W6MuIjSHZzSniYBiZYHKuqTlxyKDqoI=",
+  "Source": "Consume_GraphQLAPI",
+  "BasePath": "_content/Consume_GraphQLAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
